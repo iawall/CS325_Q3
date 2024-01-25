@@ -1,7 +1,7 @@
 i = 1
 sum = 0
 factorial = 1
-for i in range(1,6):
+for i in range(1,6): # make changes to this line
     print(i)
     sum += i
     factorial *= i
