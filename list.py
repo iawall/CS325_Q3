@@ -19,7 +19,7 @@ def check_play_status():
                 return True
             else:
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print('Thanks for playing!') # Line 22 - first change
+                print('Thanks for playing! Hope you had fun!') # Line 22 - first change
                 exit()
 
         except ValueError as err:
