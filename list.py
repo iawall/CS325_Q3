@@ -56,7 +56,7 @@ def play_rps():
             print('Rock beats scissors, I win!')
             play = check_play_status()
         elif opp_choice == 'S' and user_choice.upper() == 'P':
-            print('Scissors kills paper, I win!') # Line 58 - second change
+            print('Scissors kills paper, You lose!') # Line 58 - second change
             play = check_play_status()
         elif opp_choice == 'P' and user_choice.upper() == 'R':
             print('Paper beats rock, I win!')
